@@ -1,6 +1,6 @@
 
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar elevation-4  {{ ((Auth::user()->setting()->sidebar_color != '')? Auth::user()->setting()->sidebar_color : 'sidebar-dark-primary') }}">
+<aside class="main-sidebar elevation-4  {{ ((Auth::user()->setting()->sidebar_color != '')? Auth::user()->setting()->sidebar_color : 'sidebar-dark-primary') }}" style="background-color: #053225;">
 	<!-- Brand Logo -->
 	<a href="index3.html" class="brand-link">
 		<img src="/images/setting/{{ Auth::user()->setting()->logo }}" alt="{{ Auth::user()->setting()->clinic_name }}" class="brand-image img-circle elevation-3">
